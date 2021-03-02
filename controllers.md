@@ -1,6 +1,6 @@
 # Descrição de campos dos endpoint da API BARTANA
 
-###SubCategory(Subcategorias)
+### SubCategory(Subcategorias)
 - Listar as subcategorias
 
 >$ GET http://localhost:5000/subcategory
@@ -20,7 +20,7 @@ Para remover uma subcategoria, é necessário fornecer o ID da categoria na qual
 
 >$ DELETE http://localhost:5000/subcategory/delete/{inteiro:ID_CATEGORIA}/{string:NOME_SUBCATEGORIA}
 
-###Keyword(Palavras-chave)
+### Keyword(Palavras-chave)
 - Listar as palavras-chave
 
 >$ GET http://localhost:5000/subcategory
